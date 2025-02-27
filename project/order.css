@@ -1,0 +1,249 @@
+/* -------- Nav----------- */
+nav {
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+  .namee {
+    margin: 15px 0px 10px 70px;
+  }
+  
+  .namee p {
+    font-size: 24px;
+    font-weight: bold;
+    display: inline;
+  }
+  
+  .namee span {
+    font-size: 24px;
+    font-weight: bold;
+    color: RGB(233, 156, 46);
+  }
+  .links {
+    display: flex;
+    align-items: center;
+    margin: auto;  
+  }
+  
+  .links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 50px 0 50px;
+    display: flex;
+    font-family: "Robo";
+  }
+  
+  .links ul li {
+    padding: 0 20px;
+  }
+  .links ul li a {
+    text-decoration: none;
+    color: #212529;
+    font-size: 15px;
+    font-weight: 500;
+    transition: color 0.3s ease;
+  }
+  .links ul li a:hover {
+    color: RGB(233, 156, 46);
+  }
+  .user-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;  }
+  
+  .cart-icon {
+    font-size: 24px;
+    color: black;
+  }
+  
+  .username {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+  }
+  .logout a {
+    text-decoration: none;
+    position: relative;
+     left: 100%;
+     color: #212529;
+     font-size: 18px;
+     font-weight: 500; 
+  }
+  
+  .logout a:hover {
+    color: RGB(233, 156, 46);
+  }
+
+
+  /*--------------------------------------------------*/
+.order{
+    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin:10%;  
+        padding: 20px;
+        border: 1px solid #ddd;   
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  
+        border-radius: 10px; 
+        background-color: #fff;
+        width:35%;
+        position: relative;
+        left: 25%;
+        background-color: #d4cece;
+}
+.order .h11{
+    margin-top: 5%;
+     
+}
+ .order p{
+   margin-top:5%;
+   font-size: 20px;
+ }
+ .order h4{
+  font-size: 16px;
+ }
+.order h3:hover {
+    color: RGB(233, 156, 46);
+  }
+  .btn1{
+    background-color: #ff9900;
+    color: #fff;
+    border: 2px solid #ddd;
+    border-radius: 25px; 
+  }
+  .btn2{
+    background-color:#6c6c6c;
+    color: white;
+    border-radius: 25px; 
+    border: 2px solid #ddd;
+  }
+  .btns{
+    margin-top: 5%;
+    display: block;
+     
+  }
+  
+
+
+
+  footer {
+    background-color: #fff;
+    padding: 40px 80px;
+    font-family:"Robo";
+    margin-left: 10%;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+  
+  .footer-section {
+    flex: 1;
+    min-width: 200px;
+    max-width: 25%;
+    text-align: left;
+  }
+  
+  
+  
+  .company-info p {
+    font-family:"Robo";
+    color: RGB(143, 143, 143);
+    font-size: 18px;
+    line-height: 1.6;
+  }
+  .company-info p {
+    color: #6c6c6c;
+    font-size: 14px;
+    line-height: 1.6;
+  }
+  
+ 
+  
+  ul {
+    list-style: none;
+    
+  }
+  
+  ul li {
+    margin-bottom: 8px;
+  }
+  
+   
+  ul li a,
+  .contact a,
+  .social-icons a {
+    text-decoration: none;
+    color: RGB(143, 143, 143);
+    font-size: 16px;
+    font-family:"Robo";
+    position: relative;
+    transition: color 0.3s ease-in-out;
+    left:-10%;
+  }
+  
+   
+  ul li a:hover,
+  .contact a:hover,
+  .social-icons a:hover {
+     color: #ff9900;;
+  }
+  
+  .contact p {
+    font-size: 18px;
+    color: RGB(143, 143, 143);
+    line-height: 1.6;
+  }
+  
+  .contact a {
+    color:RGB(143, 143, 143);
+    font-weight: bold;
+    text-decoration: none;
+    display: block;
+    margin-top: 5px;
+    font-family:"Robo";
+    font-size: 18px; position: relative;
+    left: 0%;
+  }
+  
+  
+   
+  /*----------------------------final*/
+ 
+  .final{
+    background-color: RGB(248, 249, 253);
+    align-items: center;
+    margin: auto;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+  }
+  .final .social-icons {
+    margin-top: 10px;
+  }
+  
+   .final .social-icons a {
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 18px;
+    color: #6c6c6c;
+    transition: color 0.3s;
+  }
+
+  .final   p{
+    color:  RGB(165, 173, 179);
+    font-family:"Robo";
+    text-align: center;
+    font-size: 14px;
+    line-height: 2.5;
+
+  }

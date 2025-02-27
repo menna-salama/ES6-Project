@@ -1,0 +1,707 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #fff;
+}
+@font-face {
+    font-family: "Robo";
+    src: url("font/Roboto-VariableFont_wdth,wght.ttf");
+}
+nav {
+  position: fixed;  
+  top: 0;
+  left: 0;
+  width: 100%;   
+  background-color: white;   
+  z-index: 1000;   
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+}
+
+body {
+  padding-top: 80px;  
+}
+
+.namee {
+  margin: 15px 0px 10px 70px;
+}
+
+.namee p {
+  font-size: 24px;
+  font-weight: bold;
+  display: inline;
+}
+
+.namee span {
+  font-size: 24px;
+  font-weight: bold;
+  color: RGB(233, 156, 46);
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  margin: auto;
+}
+
+.links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 50px 0 50px;
+  display: flex;
+  font-family: "Robo";
+}
+
+.links ul li {
+  padding: 0 20px;
+}
+
+.links ul li a {
+  text-decoration: none;
+  color: #212529;
+  font-size: 15px;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.links ul li a:hover {
+  color: RGB(233, 156, 46);
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
+}
+
+
+.cart-icon {
+  font-size: 24px;
+  color: black;
+}
+
+.username {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+}
+
+.logout a {
+  text-decoration: none;
+  color: #212529;
+  font-size: 18px;
+  font-weight: 500;
+   position: relative;
+   left: 100%;
+}
+
+.logout a:hover {
+  color: RGB(233, 156, 46);
+}
+
+/*------------------slider---------*/
+.slider {
+    width: 90%;
+    height: 450px;
+    padding-top: 5%;
+    position: relative;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.slides {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-width: 100%;
+    height: 100%;
+    background-color: #f8f8f8;
+    box-sizing: border-box;
+    padding: 0 5%;
+}
+
+.slide-content {
+    flex: 1;
+    padding: 20px;
+    max-width: 50%;
+}
+
+.slide-content h3 {
+    font-size: 24px;
+    color: RGB(153, 141, 128);
+    font-family:"Robo";
+}
+
+.slide-content h2 {
+    font-size: 48px;
+    color: RGB(97, 96, 96);
+    margin: 10px 0;
+    font-family:"Robo";
+}
+
+.slide-content p {
+    font-size: 19px;
+    color: RGB(160, 158, 156);
+    margin-bottom: 10px;
+    font-family:"Robo";
+}
+
+.price {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+}
+
+.price del {
+    color: #999;
+    margin-left: 10px;
+}
+
+.slide img {
+    width: 30%;
+    height: auto;
+    object-fit: cover;
+    
+}
+/*-------------------------*/
+.all {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: RGB(241, 241, 240);
+    padding: 40px 0;
+    background-color: #fff;
+}
+
+main {
+    width: 85%;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+main .slider {
+    width: 30%;
+    height: auto;
+    text-align: center;
+   background-color:RGB(248, 249, 252);
+    border: 1px solid #e0e0e0;
+    padding: 20px;
+    transition: all 0.3s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.slider:hover img {
+    transform: scale(1.1);
+}
+
+
+.slider .content {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.slider .content a {
+    font-family:"Robo";
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: black;
+}
+.slider .content a:hover {
+    color: RGB(233, 156, 46);
+} 
+ 
+
+.slider .content p {
+    font-family:"Robo";
+    font-size: 18px;
+    color: RGB(160, 158, 156);
+    margin-bottom: 15px;
+    line-height: 1.5;
+}
+
+.small h5 {
+    font-size: 16px;
+    display: inline-block;
+    font-weight: normal;
+}
+
+.small span {
+    font-size: 18px;
+    color: #ff9900;
+    font-weight: bold;
+}
+
+.discover {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 15px;
+    border: 1px solid black;
+    text-transform: uppercase;
+    font-family: "Jost", sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+    color: black;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.discover:hover {
+    background-color: RGB(95, 91, 87);
+    color: white;
+}  
+
+#new-arrivals{
+  margin-bottom: 110px;
+}
+#new-arrivals2{
+   position: relative;
+   top: -30%;
+}
+#Featureee{
+  margin-bottom: 100px;
+}
+#latestplog{
+  margin-bottom: 90px;
+}
+/*=======================================product*/
+/* تنسيق عام لأزرار الفلتر */
+.filter-btn {
+  background-color: #f8f9fa; /* لون خلفية فاتح */
+  color: #333; /* لون النص */
+  border: 2px solid #ddd; /* حدود خفيفة */
+  padding: 10px 20px; /* مسافة داخلية */
+  margin: 5px; /* مسافة خارجية */
+  border-radius: 25px; /* زوايا دائرية */
+  font-size: 16px; /* حجم الخط */
+  cursor: pointer; 
+  transition: all 0.3s ease-in-out;  
+}
+
+ 
+.filter-btn:hover {
+  background-color: #ff9900;  
+  color: white;  
+    
+}
+
+ 
+
+ 
+/*============================ARRIVALS*/
+.product-card {
+    background-color: #fff;
+    padding: 20px;
+    
+  }
+  .sale-badge {
+    background-color: RGB(233, 156, 46); 
+    color: RGB(255, 255, 255);  
+    padding: 5px 10px;  
+    border-radius: 5px; 
+    font-size: 14px;  
+    font-weight: bold;  
+    position: absolute;  
+    top: 20px;  
+    right: 40px;  
+    z-index: 1;  
+  }
+  .product-img {
+    position: relative;
+    margin-bottom: 20px;
+    width: 250PX;
+    height: 300PX;
+  }
+  .product-img img {
+    width: 80%;
+    height: auto;
+    transition: all 0.6s ease-in-out;
+  }
+  .product-img:hover img {
+    width: 100%;
+    transform: scale(1.1);
+}
+ 
+  .product-card a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 0;
+    color: black;
+  }
+  .product-card:hover a {
+    color: #ff9900;
+  
+  }
+  
+  .product-card p {
+    font-size: 16px;
+    color: RGB(95, 91, 87);
+    margin: 10px 0;
+  }
+  
+  .price {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .price del {
+    color: #999;
+    margin-left: 10px;
+  }
+  
+/* Add to Cart Container */
+ 
+.add-to-cart {
+  display: flex; 
+  align-items: center;  
+  gap: 5px;  
+  position: absolute;
+  bottom: -30px;  
+  left: 50%;  
+  transform: translateX(-50%);  
+  opacity: 0;
+  transition: opacity 0.3s ease, bottom 0.3s ease;
+  background-color: #999;  
+  width: 250px;  
+  height: 45px;  
+  border-radius: 5px;  
+  justify-content: center;  
+  top: 65%;
+}
+
+.add-to-cart i {
+  font-size: 18px;  
+  color: black;  
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.add-to-cart a {
+  font-size: 14px; 
+  text-decoration: none;  
+  color: black; 
+}
+
+.add-to-cart i:hover {
+  color: rgb(210, 140, 40);  
+}
+.product-card:hover .add-to-cart {
+  opacity: 1;
+  bottom: 10px;  
+}
+ /*---------------------word*/
+  .word h2 {
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    
+    margin-bottom: 30px; 
+     color: RGB(95, 91, 87);
+     font-family:"Robo";
+   
+}
+  /*---------------------fea*/
+  .alll {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: RGB(241, 241, 240);
+    padding: 40px 0;
+    background-color: #fff;
+}
+main {
+    width: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main .sliderr{
+    width: 30%;
+    height: auto;
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.sliderr .content {
+    text-align: center;
+    padding-top: 20px;
+}
+.rating {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+}
+
+ .rating .fas  {
+    color: RGB(239, 206, 74);  
+    font-size: 14px;
+    margin-right: 5px;
+}
+
+.review {
+    color: RGB(160, 158, 156);
+    font-size: 14px;
+    font-family:"Robo";
+}
+
+
+.sliderr .content a {
+    font-family:"Robo";
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: RGB(95, 91, 87);
+}
+.sliderr .content p {
+    font-family:"Robo";
+    font-size: 18px;
+    color: RGB(95, 91, 87);
+    margin-bottom: 15px;
+    line-height: 2;
+}
+/*-----------BLOG---------------------*/
+.allll {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+     
+    padding: 40px 0;
+     
+}
+
+main {
+    width: 85%;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+main .sliderrr {
+    width: 30%;
+    height: auto;
+    text-align: center;
+    padding: 20px;
+    transition: all 0.3s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+     
+}
+
+.sliderrr:hover img {
+    transform: scale(1.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+.sliderrr .content {
+    text-align: left;
+    padding-top: 20px;
+}
+
+.sliderrr .content a {
+    font-family:"Robo";
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: black;
+}
+.sliderrr .content a:hover {
+    color: RGB(233, 156, 46);
+} 
+
+.sliderrr .content h3 {
+    color: RGB(188, 183, 178);
+    font-size: 14px;
+    text-decoration: none solid rgb(188, 183, 178);
+} 
+ 
+
+.sliderrr .content p {
+    font-family:"Robo";
+    font-size: 13px;
+    color:  RGB(149, 144, 139);
+    margin-bottom: 15px;
+    line-height: 1.5;
+}
+/*-------------------------last*/
+.lastfinal{
+    background-color: RGB(248, 249, 253);
+    align-items: center;
+    margin: auto;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+}
+.lastfinal img{
+    margin: 0 5% 0 5%;
+     
+}
+/*-------------------------footer*/
+footer {
+    background-color: #fff;
+    padding: 40px 80px;
+    font-family:"Robo";
+    margin-left: 10%;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+  
+  .footer-section {
+    flex: 1;
+    min-width: 200px;
+    max-width: 25%;
+    text-align: left;
+  }
+  
+  
+  
+  .company-info p {
+    font-family:"Robo";
+    color: RGB(143, 143, 143);
+    font-size: 18px;
+    line-height: 1.6;
+  }
+  .company-info p {
+    color: #6c6c6c;
+    font-size: 14px;
+    line-height: 1.6;
+  }
+  
+ 
+  
+  ul {
+    list-style: none;
+    
+  }
+  
+  ul li {
+    margin-bottom: 8px;
+  }
+  
+   
+  ul li a,
+  .contact a,
+  .social-icons a {
+    text-decoration: none;
+    color: RGB(143, 143, 143);
+    font-size: 16px;
+    font-family:"Robo";
+    position: relative;
+    transition: color 0.3s ease-in-out;
+    left:-10%;
+  }
+  
+   
+  ul li a:hover,
+  .contact a:hover,
+  .social-icons a:hover {
+     color: #ff9900;;
+  }
+  
+  .contact p {
+    font-size: 18px;
+    color: RGB(143, 143, 143);
+    line-height: 1.6;
+  }
+  
+  .contact a {
+    color:RGB(143, 143, 143);
+    font-weight: bold;
+    text-decoration: none;
+    display: block;
+    margin-top: 5px;
+    font-family:"Robo";
+    font-size: 18px; position: relative;
+    left: 0%;
+  }
+  
+   
+  /*----------------------------final*/
+ 
+  .final{
+    background-color: RGB(248, 249, 253);
+    align-items: center;
+    margin: auto;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+  }
+  .final .social-icons {
+    margin-top: 10px;
+  }
+  
+   .final .social-icons a {
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 18px;
+    color: #6c6c6c;
+    transition: color 0.3s;
+  }
+
+  .final   p{
+    color:  RGB(165, 173, 179);
+    font-family:"Robo";
+    text-align: center;
+    font-size: 14px;
+    line-height: 2.5;
+
+  }
+
+  #scrollTopBtn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    background-color: RGB(233, 156, 46);
+    color: white;
+    border: none;
+    border-radius: 50%;
+    font-size: 20px;
+    cursor: pointer;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    transition: opacity 0.3s, transform 0.3s;
+    z-index: 1000; 
+
+}
+
+#scrollTopBtn:hover {
+    background-color: RGB(200, 130, 30);
+    transform: scale(1.1);
+}
+
+   
+   
+ 
